@@ -1,0 +1,34 @@
+Layout Note https://facebook.github.io/react-native/docs/layout-props.html
+
+1.display
+    display:flex | inline-flex
+
+2.flexDirection (react-js) 'primary-axis'
+    row | row-reverse | column (default)| column-reverse
+
+3.flexWrap
+    nowrap (不換行)| wrap | wrap-reverse
+
+4.flex-flow (for web)
+    nowrap (不換行)| wrap | wrap-reverse
+
+5.justifyContent 'primary-axis'
+    flex-start | flex-end | center | space-between (ex.0:2:2:0) | space-around (ex.1:2:2:1)
+
+6.alignItems cross direction 'second-axis'
+    flex-start | flex-end | center | baseline (max-bottom Line元件當基準線對齊) | stretch (extends-effect)
+
+7.alignSelf (the effect as justify-content,but use after wrap-line) cross direction （*Must not set Height）
+    auto | flex-start | flex-end | center | space-between (ex.0:2:2:0) | space-around (ex.1:2:2:1) | stretch
+
+8.order
+    less number to rank first..
+
+9.flexGrow 放大比
+
+10.flexShrink 縮小比
+
+//learning to end 10 start 11
+https://www.youtube.com/watch?v=KMpXn7UMJOU&index=14&list=PLNZphN9yfQCQnnLAixibjwtFhDX0eSkhA
+
+
